@@ -5,3 +5,6 @@ venv/
 .venv/
 *.egg-info/
 .DS_Store
+
+# dataset grezzi, troppo pesanti per git (si riscaricano da SNAP)
+data/*.tsv
