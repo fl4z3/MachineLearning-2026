@@ -7,4 +7,8 @@ venv/
 .DS_Store
 
 # dataset grezzi, troppo pesanti per git (si riscaricano da SNAP)
-data/*.tsv
+data/**/*.tsv
+
+# file nascosti  
+._*
+.DS_Store
