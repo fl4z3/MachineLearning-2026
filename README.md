@@ -6,9 +6,10 @@ Dataset assegnato: [MOOC User Action Dataset](https://snap.stanford.edu/data/act
 
 ## Struttura repository
 
-- `data/` — dataset originali e file `manuale.csv` / `training.csv`
-- `notebooks/` — notebook Jupyter con l'analisi e i classificatori
-- `src/` — eventuale codice Python riutilizzabile
+- `data/` — dataset originali (`.tsv`, non versionati) e i file prodotti dal progetto:
+  `manuale.csv`, `training.csv`, `training_clean.csv`
+- `notebooks/` — un notebook per ogni task del progetto (01–05)
+- `docs/` — la consegna e la documentazione dei task
 
 ## Setup dataset
 
